@@ -1,4 +1,4 @@
-# Exercise 1
+#Exercise 1
 
 x=int(input('Enter a numbers: '))
 y=int(input('Enter a numbers: '))
@@ -8,9 +8,10 @@ if var1 < 1000:
 elif var1>1000:
 	print( 'Addition result: ', x+y)
 
-# Exercise 2
+# exercise 2
 
-n=int(input('Enter n : '))
+n=int(input('Enter any number : '))
+
 n1 = 0
 n2 = 1
 count=0
