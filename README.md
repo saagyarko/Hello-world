@@ -1,7 +1,3 @@
-# Hello-world
-
-first repository
-Kay here, I like python and java.s 
 first_name = "samuel"
 last_name = "agyarko"
 full_name = first_name +" "+ last_name
@@ -10,8 +6,7 @@ print(message)
 
 
 
-# Casing of words
-
+#Casing of words
 name = "sam kay"
 print(name.title())
 print(name.lower())
@@ -24,8 +19,7 @@ print(famous_name +" "+"said," +'"knock and it shall be open unto you"')
 
 
 
-# Clearing the whitespace 
-
+#Clearing the whitespace 
 name_1=" Ako "
 name_2=" Kofi"
 name_3="Kay "
@@ -36,8 +30,7 @@ print(name_3.rstrip())
 
 
 
-# The use of str
-
+#The use of str
 age = 20
 birthday = "Happy" +" "+ str(age) + "th Birthday !!"
 print(birthday)
@@ -46,8 +39,7 @@ print('\n')
 
 
 
-# Dealing with numbers
-
+#Dealing with numbers
 print(5+3)
 print(16-8)
 print(16/2)
@@ -55,19 +47,24 @@ print(4*2)
 print('\n')
 fav_num = 5
 fav  = "My favourite number is" +" "+ str(fav_num)
-print(f)
+print(fav)
 
 
-# List
 
+
+#Zen of python
+import this
+
+
+
+#List
 books = ['rich dad', 'poor dad', 'henry danger', 'thundermans']
 print(books)
 
 
 
 
-# Accessing list
-
+#Accessing list
 print(books[0].title())
 print(books[1].lower())
 print(books[2].upper())
@@ -78,8 +75,7 @@ print('\n')
 
 
 
-# message for names
-
+#message for names
 names=['lukman', 'godey', 'delius', 'allfix']
 print(names[0].title()+" "+ "is a mad boy")
 print(names[1].title()+" "+ "is a mad boy")
@@ -89,23 +85,20 @@ print('\n')
 
 
 
-# Replacing elements in a list
-
+#Replacing elements in a list
 motorcycles = ['Honda', 'Suzuki', 'BMW']
 motorcycles[1]='Ducati'
 motorcycles[0] ='Yamaha'
 
 
 
-# Adding elements to list
-
+#Adding elements to list
 motorcycles.append('honda'.title())
 print(motorcycles)
 
 
 
-# Creating an empty list and filling
-
+#Creating an empty list and filling
 motorbikes=[]
 motorbikes.append('ducati'.title())
 motorbikes.append('yamaha'.title())
@@ -116,17 +109,14 @@ print(motorbikes)
 
 
 
-# Removing element
-
+#Removing element
 del motorbikes[2]
 print(motorbikes)
 
 
 
 
-# Removing element using pop() and re-using the element
-
-
+#Removing element using pop() and re-using the element
 popped_motorbikes_1 = motorbikes.pop()
 popped_motorbikes_2 = motorbikes.pop(0)
 popped_motorbikes_3 = motorbikes.pop(1)
@@ -138,8 +128,7 @@ print("My second motorcycle I bought was" +" "+ popped_motorbikes_3 + ".")
 
 
 
-# Try works
-
+#Try works
 print('\n')
 guests = ['Ellie', 'Mimi', 'Joy']
 
@@ -164,8 +153,7 @@ print("Hey, I found a bigger table and would like to invite you," +" "+ guests[-
 
 
 
-# Organising list
-
+#Organising list
 cars = ['bmw', 'suzuki', 'toyota', 'audi', 'bugatti']
 cars.sort()
 print(len(cars))
@@ -180,8 +168,7 @@ print(carss)
 
 
 
-# Try Work
-
+#Try Work
 cities = ['tokyo', 'qatar', 'dubai', 'hawaii', 'suadi arabia']
 print(cities)
 print(sorted(cities))
@@ -225,8 +212,7 @@ for pizza in pizzas:
 
 
 #making numerical list
-# use of range
-
+#use of range
 for value in range(1,10):
  print(value)
 
@@ -244,8 +230,7 @@ print('\n')
 
 
 
-# statistics with list of numbers
-
+#statistics with list of numbers
 digits = []
 for value in range(1,13):
 	digits.append(value*4)
@@ -257,8 +242,7 @@ print('\n')
 
 
 
-# list comprehension
-
+#list comprehension
 comp = [value**2 for value in list(range(1,11))]
 print(comp)
 com=[value+4 for value in list(range(1,13))]
@@ -266,8 +250,7 @@ print(com)
 
 
 
-# Try work 
-
+#Try work 
 counts=[]
 for value in range(1,21):
 	counts.append(value)
@@ -295,9 +278,8 @@ print(cubes)
 
 
 
-# working with part of list
-# slicing list
-
+#working with part of list
+#slicing list
 players = ['florence', 'ellie', 'sam', 'martha', 'randy']
 print(players[0:3])
 
@@ -307,16 +289,14 @@ print(players[:-3])
 
 
 
-# looping through slice
-
+#looping through slice
 players = ['florence', 'ellie', 'sam', 'martha', 'randy']
 for player in players[:3]:
 	print(player.title())
 
 
 
-# copying list
-
+#copying list
 my_foods = ['ampesi', 'rice', 'potato']
 friend_foods = my_foods[:]
 
@@ -336,8 +316,7 @@ print(friend_foods)
 
 
 
-# Tuples
-
+#Tuples
 demp = (250,60)
 print(demp[0])
 print(demp[1])
@@ -352,8 +331,7 @@ for demp in demps:
 
 
 
-# over writing tuples
-
+#over writing tuples
 demps = (250,60)
 print('Original demps:')
 for demp in demps:
@@ -365,25 +343,22 @@ for demp in demps:
 	print(demp)
 print('\n')
 	
-# if statements
-
+#if statements
 cities = ['tokyo', 'new york', 'MAIMI', 'texas']
 for city in cities:
 	if city == 'MAIMI':
 		print(city.lower())
 	else:
 		print(city.title())
-diseases = ['typhoid', 'fever', 'bp', 'whole in heart']
-sam = input("\nPlease enter your disease: ")
-
-if sam == 'typhoid':
+diseases =['typhoid', 'fever', 'bp']
+sam = input("\nPlease enter your disease(typhoid, fever, bp,  ): ")
+if sam == "typhoid":
 	print("\nYou have typhoid.")
-elif sam == ' bp':
-	print("\nYou have BP.")
-elif sam == 'whole in heart':
-	print("\nYou have whole in heart.")
-else:
-	print("\nYour sickness is not in our list.\n")
+elif sam == "fever":
+	print("\nYou have Fever.")
+elif sam == "bp":
+	print("You have Blood Pressure.")	
+
 	
 print("\nThank you dear customer for using our service.\n")		
 				
@@ -406,8 +381,7 @@ print("Dear user this is your list below: ")
 print(numps)		
 		
 	
-# using AND to check conditions
-
+#using AND to check conditions
 goal = 30
 print(goal < 31)
 print(goal<= 50 and goal<= 35)
@@ -415,8 +389,7 @@ print(goal <= 40 and goal >= 36)
 print('\n')
 
 
-# using OR to check conditions
-
+#using OR to check conditions
 goal = 30
 print(goal < 31)
 print(goal<= 50 or goal<= 35)
@@ -424,14 +397,12 @@ print(goal <= 40 or goal >= 36)
 print('\n')	
 
 
-# checking for value in a list
-
+#checking for value in a list
 cities = ['tokyo', 'new york', 'MAIMI', 'texas']
 print('tokyo' in cities)
 print('ghana'in cities)
 
-# checking for not values in list
-
+#checking for not values in list
 cities = ['tokyo', 'new york', 'MAIMI', 'texas']
 city = 'ghana'
 
@@ -448,8 +419,7 @@ else:
 		
 
 
-# Asking for name and age 
-
+#Asking for name and age 
 print("Hey there what's your name ? ")
 myName = input()
 print("It's a pleasure meeting you, " + myName)
@@ -468,9 +438,7 @@ spam = 0
 if spam < 5:
 	print("This is an if statement.")
 	spam = spam + 1
-  
-  
-# While loop
+#While loop
 spam = 0
 while spam < 5:
 	print("This is an if statement.")
@@ -484,9 +452,7 @@ while name != 'myname':
 	print("Thank you for your time")
 print("\n")
 
-
-
-# break usage
+#break usage
 name = ''
 while name != 'myname':
 	print('Please type your name')
@@ -494,7 +460,7 @@ while name != 'myname':
 	break
 	print("Thank you for your time")	
 	continue
-# infinite loop
+#infinite loop
 while True:
      print('Hello world!\n')
      break
@@ -523,13 +489,10 @@ while True:
 			print("Access Granted")	
 			break
 		
-# Importing modules
+#Importing modules
 import random
 for i in range(10,1,-1):
 	print(random.randint(1, 20))
-#Import examples
-#random, sys
-#os, math
 
 	
 
